@@ -153,7 +153,7 @@ nav li {
 
 
 
-/* form input {
+/*  form input {
   display: block;
   margin: 30px;
 }
@@ -166,16 +166,16 @@ form textarea {
 form button {
   display: block;
   margin: 30px;
-} */
+}  */
 
 form input, textarea, button {
-  display: inline;
+  display: block;
   margin: 30px;
 }
 
 .wrapper {
   display: grid;
-grid-gap: 10px;
+  grid-gap: 10px;
   grid-template-columns: repeat(5, [col] 20% ) ;
   grid-template-rows: repeat(3, [row] auto  );
   background-color: #fff;
